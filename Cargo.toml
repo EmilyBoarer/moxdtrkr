@@ -1,0 +1,15 @@
+[package]
+name = "moxdtrkr"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+inquire = { version = "0.3.0", features = ["date"] }
+clearscreen = "1.0.6"
+serde = {version = "1.0.147", features = ["derive"]}
+serde_json = "1.0"
+colored = "2.0.0"
+console = "0.15.2"
